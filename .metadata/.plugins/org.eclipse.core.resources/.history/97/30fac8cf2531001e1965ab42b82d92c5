@@ -1,0 +1,14 @@
+package com.quiz.quizservice.model;
+
+import jakarta.transaction.Transactional;
+import lombok.Data;
+
+@Data
+@Transactional
+public class QuizDto 
+{
+	private String categoryName;
+	private String title;
+	private Integer numQuestions;
+	
+}
